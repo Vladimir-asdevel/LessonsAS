@@ -18,4 +18,16 @@
     NSLog(@"%@", string);
 }
 
+- (void)say:(NSString *)string and:(NSString *)string2 {
+    NSLog(@"%@, %@", string, string2);
+}
+
+- (void)say:(NSString *)string and:(NSString *)string2 andAfterThat:(NSString *)string3 {
+    NSLog(@"%@, %@, %@", string, string2, string3);
+}
+
+- (NSString *)saySomething {
+    return @"I won't say anything :)";
+}
+
 @end

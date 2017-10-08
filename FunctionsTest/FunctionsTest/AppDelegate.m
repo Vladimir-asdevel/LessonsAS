@@ -21,6 +21,13 @@
     
     [parent say:@"How are you?"];
     
+    [parent say:@"I was worried about you" and:@"where have you been?"];
+    
+    [parent say:@"Hope you are ok!" and:@"Are you?" andAfterThat:@"Are you sure?"];
+    
+    
+    NSLog(@"%@", [parent saySomething]);
+    
     return YES;
 }
 
