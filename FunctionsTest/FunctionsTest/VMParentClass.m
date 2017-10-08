@@ -20,11 +20,11 @@
 }
 
 + (void)whoAreYou {
-    NSLog(@"I Am VMParentClass");
+    NSLog(@"I Am VMParentClass %@", self);
 }
 
 - (void)sayHello {
-    NSLog(@"Parent says hello!");
+    NSLog(@"Parent says hello! %@", self);
 }
 
 - (void)say:(NSString *)string {
