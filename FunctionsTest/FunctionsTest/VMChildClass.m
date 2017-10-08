@@ -14,7 +14,7 @@
 {
     self = [super init];
     if (self) {
-        NSLog(@"Instance of child class is created");
+        NSLog(@"Instance of child class is initialized");
     }
     return self;
 }
