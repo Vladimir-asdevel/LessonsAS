@@ -10,4 +10,8 @@
 
 @implementation VMParentClass
 
+- (void)sayHello {
+    NSLog(@"Parent says hello!");
+}
+
 @end

@@ -7,16 +7,18 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
-
-@end
+#import "VMParentClass.h"
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    VMParentClass *parent = [[VMParentClass alloc] init];
+    
+    [parent sayHello];
+    
     return YES;
 }
 
