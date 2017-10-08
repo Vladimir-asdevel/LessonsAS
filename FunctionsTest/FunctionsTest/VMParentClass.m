@@ -35,12 +35,12 @@
     return [NSString stringWithFormat:@"%@", [NSDate date]];
     
 }
-
+/*** /
 - (NSString *)saySomething {
     
     NSString *string = [self saySomeNumberString];
     
     return string;
 }
-
+// ***/
 @end
