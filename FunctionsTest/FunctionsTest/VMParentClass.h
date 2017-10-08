@@ -10,4 +10,6 @@
 
 @interface VMParentClass : NSObject
 
+- (void)sayHello;
+
 @end
