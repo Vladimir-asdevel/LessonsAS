@@ -10,6 +10,10 @@
 
 @implementation VMParentClass
 
++ (void)whoAreYou {
+    NSLog(@"I Am VMParentClass");
+}
+
 - (void)sayHello {
     NSLog(@"Parent says hello!");
 }

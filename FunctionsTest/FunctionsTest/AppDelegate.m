@@ -28,6 +28,8 @@
     
     NSLog(@"%@", [parent saySomething]);
     
+    [VMParentClass whoAreYou];    
+    
     return YES;
 }
 
