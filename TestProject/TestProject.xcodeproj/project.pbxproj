@@ -13,6 +13,7 @@
 		FA0FAA331F8A271B00CD58D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0FAA311F8A271B00CD58D4 /* Main.storyboard */; };
 		FA0FAA351F8A271B00CD58D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0FAA341F8A271B00CD58D4 /* Assets.xcassets */; };
 		FA0FAA381F8A271B00CD58D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0FAA361F8A271B00CD58D4 /* LaunchScreen.storyboard */; };
+		FA0FAA411F8A2E9100CD58D4 /* VMTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0FAA401F8A2E9100CD58D4 /* VMTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FA0FAA341F8A271B00CD58D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA0FAA371F8A271B00CD58D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA0FAA391F8A271B00CD58D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0FAA3F1F8A2E9100CD58D4 /* VMTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMTestClass.h; path = TestGroup/VMTestClass.h; sourceTree = "<group>"; };
+		FA0FAA401F8A2E9100CD58D4 /* VMTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMTestClass.m; path = TestGroup/VMTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,9 @@
 		FA0FAA271F8A271B00CD58D4 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
-				FA0FAA2B1F8A271B00CD58D4 /* AppDelegate.h */,
-				FA0FAA2C1F8A271B00CD58D4 /* AppDelegate.m */,
+				FA0FAA3F1F8A2E9100CD58D4 /* VMTestClass.h */,
+				FA0FAA401F8A2E9100CD58D4 /* VMTestClass.m */,
+				FA0FAA421F8A2E9B00CD58D4 /* TestGroup */,
 				FA0FAA2E1F8A271B00CD58D4 /* ViewController.h */,
 				FA0FAA2F1F8A271B00CD58D4 /* ViewController.m */,
 				FA0FAA311F8A271B00CD58D4 /* Main.storyboard */,
@@ -77,6 +81,15 @@
 				FA0FAA291F8A271B00CD58D4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA0FAA421F8A2E9B00CD58D4 /* TestGroup */ = {
+			isa = PBXGroup;
+			children = (
+				FA0FAA2B1F8A271B00CD58D4 /* AppDelegate.h */,
+				FA0FAA2C1F8A271B00CD58D4 /* AppDelegate.m */,
+			);
+			name = TestGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +118,7 @@
 		FA0FAA1D1F8A271B00CD58D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = "";
+				CLASSPREFIX = VM;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "MVV Corporation";
 				TargetAttributes = {
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0FAA301F8A271B00CD58D4 /* ViewController.m in Sources */,
+				FA0FAA411F8A2E9100CD58D4 /* VMTestClass.m in Sources */,
 				FA0FAA2D1F8A271B00CD58D4 /* AppDelegate.m in Sources */,
 				FA0FAA2A1F8A271B00CD58D4 /* main.m in Sources */,
 			);
@@ -219,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -261,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,6 +328,7 @@
 				FA0FAA3E1F8A271B00CD58D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
