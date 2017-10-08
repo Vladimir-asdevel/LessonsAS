@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "VMParentClass.h"
+//#import "VMParentClass.h"
 #import "VMChildClass.h"
 
 @implementation AppDelegate
