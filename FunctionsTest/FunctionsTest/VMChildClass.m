@@ -9,10 +9,18 @@
 #import "VMChildClass.h"
 
 @implementation VMChildClass
+
+- (NSString *)saySomeNumberString {
+    
+    return @"Something!";
+    
+}
+
 /***/
 - (NSString *)saySomething {
-    [self saySomeNumberString];
-    return @"Something!";
+    
+    return [self saySomeNumberString];
 }
 // ***/
+
 @end
