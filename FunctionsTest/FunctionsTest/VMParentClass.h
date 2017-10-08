@@ -11,5 +11,6 @@
 @interface VMParentClass : NSObject
 
 - (void)sayHello;
+- (void)say:(NSString *)string;
 
 @end

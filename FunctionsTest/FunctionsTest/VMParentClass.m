@@ -14,4 +14,8 @@
     NSLog(@"Parent says hello!");
 }
 
+- (void)say:(NSString *)string {
+    NSLog(@"%@", string);
+}
+
 @end

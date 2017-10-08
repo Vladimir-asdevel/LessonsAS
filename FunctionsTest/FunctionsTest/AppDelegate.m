@@ -19,6 +19,8 @@
     
     [parent sayHello];
     
+    [parent say:@"How are you?"];
+    
     return YES;
 }
 
