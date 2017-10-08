@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "VMParentClass.h"
+#import "VMChildClass.h"
 
 @implementation AppDelegate
 
@@ -15,7 +16,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    VMParentClass *parent = [[VMParentClass alloc] init];
+    VMChildClass *parent = [[VMChildClass alloc] init];
     
     [parent sayHello];
     
@@ -28,7 +29,7 @@
     
     NSLog(@"%@", [parent saySomething]);
     
-    [VMParentClass whoAreYou];    
+    [VMChildClass whoAreYou];
     
     return YES;
 }

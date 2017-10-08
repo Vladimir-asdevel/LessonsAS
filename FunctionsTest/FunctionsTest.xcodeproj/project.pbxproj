@@ -14,6 +14,7 @@
 		FA0FAA5C1F8A888E00CD58D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0FAA5B1F8A888E00CD58D4 /* Assets.xcassets */; };
 		FA0FAA5F1F8A888E00CD58D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0FAA5D1F8A888E00CD58D4 /* LaunchScreen.storyboard */; };
 		FA0FAA681F8A95AE00CD58D4 /* VMParentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0FAA671F8A95AE00CD58D4 /* VMParentClass.m */; };
+		FA0FAA6B1F8AA8D400CD58D4 /* VMChildClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0FAA6A1F8AA8D400CD58D4 /* VMChildClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		FA0FAA601F8A888E00CD58D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA0FAA661F8A95AE00CD58D4 /* VMParentClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMParentClass.h; sourceTree = "<group>"; };
 		FA0FAA671F8A95AE00CD58D4 /* VMParentClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMParentClass.m; sourceTree = "<group>"; };
+		FA0FAA691F8AA8D400CD58D4 /* VMChildClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMChildClass.h; sourceTree = "<group>"; };
+		FA0FAA6A1F8AA8D400CD58D4 /* VMChildClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMChildClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 			children = (
 				FA0FAA661F8A95AE00CD58D4 /* VMParentClass.h */,
 				FA0FAA671F8A95AE00CD58D4 /* VMParentClass.m */,
+				FA0FAA691F8AA8D400CD58D4 /* VMChildClass.h */,
+				FA0FAA6A1F8AA8D400CD58D4 /* VMChildClass.m */,
 				FA0FAA521F8A888E00CD58D4 /* AppDelegate.h */,
 				FA0FAA531F8A888E00CD58D4 /* AppDelegate.m */,
 				FA0FAA551F8A888E00CD58D4 /* ViewController.h */,
@@ -159,6 +164,7 @@
 				FA0FAA571F8A888E00CD58D4 /* ViewController.m in Sources */,
 				FA0FAA681F8A95AE00CD58D4 /* VMParentClass.m in Sources */,
 				FA0FAA541F8A888E00CD58D4 /* AppDelegate.m in Sources */,
+				FA0FAA6B1F8AA8D400CD58D4 /* VMChildClass.m in Sources */,
 				FA0FAA511F8A888E00CD58D4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
