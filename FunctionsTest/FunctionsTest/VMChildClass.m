@@ -16,11 +16,9 @@
     
 }
 
-/***/
 - (NSString *)saySomething {
     
-    return [self saySomeNumberString];
+    return [super saySomeNumberString];
 }
-// ***/
 
 @end
