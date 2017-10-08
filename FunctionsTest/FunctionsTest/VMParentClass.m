@@ -30,8 +30,17 @@
     NSLog(@"%@, %@, %@", string, string2, string3);
 }
 
+- (NSString *)saySomeNumberString {
+    
+    return [NSString stringWithFormat:@"%@", [NSDate date]];
+    
+}
+
 - (NSString *)saySomething {
-    return @"I won't say anything :)";
+    
+    NSString *string = [self saySomeNumberString];
+    
+    return string;
 }
 
 @end
