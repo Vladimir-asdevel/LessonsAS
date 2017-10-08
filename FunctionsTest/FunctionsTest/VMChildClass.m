@@ -10,10 +10,18 @@
 
 @implementation VMChildClass
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSLog(@"Instance of child class is created");
+    }
+    return self;
+}
+
 - (NSString *)saySomeNumberString {
     
     return @"Something!";
-    
 }
 
 - (NSString *)saySomething {
