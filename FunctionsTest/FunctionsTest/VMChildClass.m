@@ -11,7 +11,7 @@
 @implementation VMChildClass
 /***/
 - (NSString *)saySomething {
-    
+    [self saySomeNumberString];
     return @"Something!";
 }
 // ***/
